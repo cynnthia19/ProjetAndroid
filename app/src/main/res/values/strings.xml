@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="text1">J ai deja un compte?</string>
+    <string name="text2">Sign up</string>
+    <string name="text3">Nom et Prenom</string>
+    <string name="login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="no_account">Vous n avez pas de compte?</string>
+    <string name="forgot_pass">Forget your Password ?</string>
+    <string name="text4">signup</string>
+
 </resources>

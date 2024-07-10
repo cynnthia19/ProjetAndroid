@@ -1,12 +1,15 @@
 package com.example.myapplication;
 
-import android.os.Bundle;
+import android.content.Intent;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import android.os.Bundle;
+import android.view.View;
 
 public class loginActivity extends AppCompatActivity {
 
@@ -20,5 +23,11 @@ public class loginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    // Méthode
+    public void signup(View view) {
+        // SignUpActivity
+        Intent intent = new Intent(loginActivity.this, SignUpActivity.class);
+        startActivity(intent);
     }
 }

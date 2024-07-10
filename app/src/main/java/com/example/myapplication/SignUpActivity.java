@@ -7,6 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.content.Intent;
+
+import android.view.View;
+
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -20,5 +24,12 @@ public class SignUpActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    // Méthode
+    public void login(View view) {
+        //  loginActivity
+        Intent intent = new Intent(SignUpActivity.this, loginActivity.class);
+        startActivity(intent);
     }
 }
